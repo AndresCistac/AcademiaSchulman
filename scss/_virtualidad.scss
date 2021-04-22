@@ -1,0 +1,26 @@
+
+.div__p{
+    text-align: center;
+}
+.div__virtualidad-texto {
+    display: flex;
+    padding: 0 5vh 10vh 5vh ;
+    gap: 5vh;
+    .virtualidad__titulo {
+        text-align: center;
+    }
+
+}
+
+.div__virtualidad-logos {
+    text-align: center;
+   
+    .logo__classroom {
+        padding-left:10vh;
+        height: 60px;
+        width: 120px;
+    }
+    .logo__zoom{
+        padding-right: 10vh;
+    }
+}

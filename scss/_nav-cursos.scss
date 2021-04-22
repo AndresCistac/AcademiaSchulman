@@ -1,0 +1,134 @@
+.nav-cursosgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding: 5px;
+
+    .nav-cursos1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #de4828;
+        padding-right: 5px;
+        height: 30px;
+        font-family: "Montserrat", sans-serif;
+
+        li a:link{color: #ffffff;}
+        li a:hover{color: #ffffff;}
+        li a:visited{color: #ffffff;}
+
+        .item-cursos{
+            align-items: center;
+        
+        }
+
+        .li__responsive a:link{
+            color: black;
+        }
+        .li__responsive a:visited{
+            color: black;
+        }
+        .li__responsive a:hover{
+            color: #de4828 ;
+        }
+
+    }
+
+    .nav-cursos2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #de4828;
+        height: 30px;
+        padding-top: 6px;
+        font-family: "Montserrat", sans-serif;
+
+        li a:link{color: #ffffff;}
+        li a:hover{color: #ffffff;}
+        li a:visited{color: #ffffff;}
+        
+    }
+}
+
+.titulos__cursos{
+    text-align: center;
+    color: #ffffff;
+    background-color: #de4828 ;
+}
+
+.starters{
+    text-align: center;
+}
+.childrens__flex{
+    display: flex;
+    padding: 5vh 5vh 0 5vh;
+    font-size: 15px;
+
+    .children__content{
+        padding-right: 5vh;
+        h5{
+            background-color: #cccfcf;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+.juniors__flex{
+    display: flex;
+    padding: 5vh 5vh 0 5vh;
+    font-size: 15px;
+
+    .juniors__content{
+        padding-right: 5vh;
+        h5{
+            background-color: #cccfcf;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+.adultos__flex{
+    display: flex;
+    padding: 5vh 5vh 0 5vh;
+    font-size: 15px;
+
+    .adultos__content{
+        padding-right: 5vh;
+        h5{
+            background-color: #cccfcf;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+.internacionales__flex{
+    display: flex;
+    padding: 5vh 5vh 0 5vh;
+    font-size: 15px;
+  
+
+    .internacionales__content{
+        padding-right: 5vh;
+        align-content: space-between;
+        h5{
+            background-color: #cccfcf;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 480px){
+    .nav-cursosgrid{
+    display: none;
+}
+
+    
+}

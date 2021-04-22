@@ -1,0 +1,80 @@
+.carrusel__img-1 {
+    height: 470px;
+    margin: 5px;
+    object-fit: cover;
+}
+.carrusel__img-2 {
+    height: 470px;
+    margin: 5px;
+}
+
+.carrusel__img-3 {
+    height: 470px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+
+
+.infoindex{
+        display: grid;
+        margin: 40px;
+        grid-template-columns: 50%;
+        grid-template-rows: 150px 150px;
+        gap: 3vh;
+        text-align: center;
+        justify-content: stretch;
+        font-size: 1.5rem;
+        grid-template-areas: "infoindex__1 infoindex__2"
+        "infoindex__3 infoindex__4";
+}
+
+.infoindex__1{
+    grid-area: infoindex__1 ;
+    padding: 10px;
+    font-size: 3vh;
+}
+
+.infoindex__2{
+    grid-area: infoindex__2;
+    padding: 10px;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.infoindex__3{
+    grid-area: infoindex__3;
+    padding: 10px;
+    font-size: 3vh;
+}
+
+.infoindex__4{
+    grid-area: infoindex__4;
+    padding: 10px;
+    font-size: 3vh;
+}
+
+.h3__index{
+    font-size: 3vh;
+}
+.p__index{
+    display: flex;
+}
+.p__index-mod{
+    display: flex;
+    padding-top: 20px; 
+}
+
+.img__info{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+@media screen and (max-width: 480px){
+    .infoindex{
+        p{
+            font-size: 2vh ;
+        }
+    }
+}

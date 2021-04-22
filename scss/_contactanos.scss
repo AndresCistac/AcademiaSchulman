@@ -1,0 +1,71 @@
+iframe {
+    margin-left: 20px;
+}
+
+.tarjeta-contacto {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "info-adicional formulario";
+
+    .formulario {
+        grid-area: formulario;
+        text-align: right;
+        padding-right: 3vh;
+        
+        input{
+            height: 5vh;
+            border: 0;
+            background-color: #cccfcf;
+        }
+        .boton__contactanos {
+            display: block;
+            margin-left: 88%;
+            margin-top: 3vh;
+            border-radius: 10px;
+            border: 0;
+            padding: 5px;
+            background-color: #de4828;
+            a:link {
+                color: black;
+            }
+            a:visited {
+                color: black;
+            }
+            a:hover {
+                color: black;
+            }
+        }
+    }
+    .info-adicional {
+        grid-area: info-adicional;
+        text-align: center;
+
+        .redes-contacto {
+            display: flex;
+            padding-left: 28vh;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tarjeta-contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "info-adicional formulario";
+
+        .formulario {
+            grid-area: formulario;
+            text-align: right;
+            padding-right: 3vh;
+        }
+        .info-adicional {
+            grid-area: info-adicional;
+            text-align: center;
+
+            .redes-contacto {
+                display: flex;
+                padding-left: 10vh;
+            }
+        }
+    }
+}
