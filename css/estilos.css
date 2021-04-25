@@ -329,47 +329,26 @@ p {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f8181), to(#a1a3a3));
-  background-image: linear-gradient(to bottom, #7f8181, #a1a3a3);
+  background-color: #a1a3a3;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  margin-top: 10vh;
 }
 
 footer p {
   color: #566573;
-  text-transform: uppercase;
 }
 
-footer li a :link {
+footer li a:link {
   color: white;
 }
 
-footer li a :visited {
+footer li a:visited {
   color: white;
 }
 
-footer li a :hover {
+footer li a:hover {
   color: #2d3436;
-}
-
-footer .footer-nav__ul {
-  float: right;
-  padding-right: 2vh;
-}
-
-.footer-nav__ul {
-  float: right;
-  padding-right: 2vh;
-}
-
-@media screen and (max-width: 480px) {
-  footer {
-    height: 4vh;
-  }
-  footer .footer-nav__ul {
-    display: none;
-  }
 }
 
 .carrusel__img-1 {
@@ -647,6 +626,7 @@ iframe {
   border-radius: 10px;
   border: 0;
   padding: 5px;
+  margin-bottom: 5px;
   background-color: #cccfcf;
 }
 
