@@ -5,137 +5,24 @@
   text-decoration: none !important;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+header .nav__li {
+  padding-left: 4vh;
+  padding-right: 3vh;
+  border-right: solid 1px #de4828;
 }
 
-header .logo__nav {
-  display: inline-block;
-  padding-top: 2px;
-}
-
-header .nav__bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 4em;
-}
-
-header .nav__bar .nav__item {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-right: 2em;
-  padding-left: 2em;
-  text-decoration: none;
+header .nav__li a {
   font-weight: bold;
-  border-right: solid 1.6px #de4828;
 }
 
-header .nav__bar .nav__item a:link {
-  color: black;
+header .nav__li-mod {
+  padding-left: 4vh;
+  padding-right: 3vh;
+  border-right: solid 1px #de4828;
 }
 
-header .nav__bar .nav__item a:hover {
-  color: #de4828;
-}
-
-header .nav__bar .nav__item a:visited {
-  color: black;
-}
-
-header .nav__bar .nav__item-mod {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-right: 2em;
-  padding-left: 5em;
-  text-decoration: none;
+header .nav__li-mod a {
   font-weight: bold;
-  border-right: solid 1.6px #de4828;
-}
-
-header .nav__bar .nav__item-mod a:link {
-  color: black;
-}
-
-header .nav__bar .nav__item-mod a:hover {
-  color: #de4828;
-}
-
-header .nav__bar .nav__item-mod a:visited {
-  color: black;
-}
-
-@media screen and (max-width: 480px) {
-  body header {
-    height: 47px;
-  }
-  body header .logo__nav {
-    width: 170px;
-  }
-  body header .nav__bar {
-    padding-left: 0.5vh;
-    padding-right: 0.3vh;
-  }
-  body header .nav__bar .nav__item {
-    padding-right: 0.2vh;
-    font-size: 1.5vh;
-    font-weight: bold;
-  }
-  body header .nav__bar .nav__item-mod {
-    padding-left: 0.5vh;
-    padding-right: 0.1vh;
-    font-size: 1.5vh;
-    font-weight: bold;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 780px) {
-  body header {
-    height: 47px;
-  }
-  body header .logo__nav {
-    width: 170px;
-  }
-  body header .nav__bar {
-    padding-left: 0.2vh;
-    padding-right: 0.1vh;
-  }
-  body header .nav__bar .nav__item {
-    padding-right: 0vh;
-    font-size: 1.2vh;
-    font-weight: bold;
-  }
-  body header .nav__bar .nav__item-mod {
-    padding-left: 0vh;
-    padding-right: 0vh;
-    font-size: 1.2vh;
-    font-weight: bold;
-  }
-}
-
-@media screen and (min-width: 781px) and (max-width: 1024px) {
-  body header {
-    height: 47px;
-  }
-  body header .nav__bar {
-    padding-left: 0.5vh;
-    padding-right: 0.1vh;
-  }
-  body header .nav__bar .nav__item {
-    padding-right: 0.5vh;
-    font-size: 1.4vh;
-    font-weight: bold;
-  }
-  body header .nav__bar .nav__item-mod {
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    font-size: 1.4vh;
-    font-weight: bold;
-  }
 }
 
 * {
@@ -249,6 +136,8 @@ p {
 }
 
 .starters {
+  padding: 5vh 5vh 0 5vh;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -323,13 +212,61 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-  .nav-cursosgrid {
+  body .nav-cursosgrid {
     display: none;
+  }
+  body .contenido__cursos .childrens__flex {
+    display: block;
+  }
+  body .contenido__cursos .juniors__flex {
+    display: block;
+  }
+  body .contenido__cursos .adultos__flex {
+    display: block;
+  }
+  body .contenido__cursos .internacionales__flex {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  body .nav-cursosgrid {
+    display: none;
+  }
+  body .contenido__cursos .childrens__flex {
+    display: block;
+  }
+  body .contenido__cursos .juniors__flex {
+    display: block;
+  }
+  body .contenido__cursos .adultos__flex {
+    display: block;
+  }
+  body .contenido__cursos .internacionales__flex {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  body .nav-cursosgrid {
+    display: none;
+  }
+  body .contenido__cursos .childrens__flex {
+    display: block;
+  }
+  body .contenido__cursos .juniors__flex {
+    display: block;
+  }
+  body .contenido__cursos .adultos__flex {
+    display: block;
+  }
+  body .contenido__cursos .internacionales__flex {
+    display: block;
   }
 }
 
 footer {
-  background-color: #a1a3a3;
+  background-color: #C2C4C4;
   bottom: 0;
   width: 100%;
   margin-top: 10vh;

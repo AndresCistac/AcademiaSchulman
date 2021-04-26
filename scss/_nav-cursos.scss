@@ -12,25 +12,29 @@
         height: 30px;
         font-family: "Montserrat", sans-serif;
 
-        li a:link{color: #ffffff;}
-        li a:hover{color: #ffffff;}
-        li a:visited{color: #ffffff;}
+        li a:link {
+            color: #ffffff;
+        }
+        li a:hover {
+            color: #ffffff;
+        }
+        li a:visited {
+            color: #ffffff;
+        }
 
-        .item-cursos{
+        .item-cursos {
             align-items: center;
-        
         }
 
-        .li__responsive a:link{
+        .li__responsive a:link {
             color: black;
         }
-        .li__responsive a:visited{
+        .li__responsive a:visited {
             color: black;
         }
-        .li__responsive a:hover{
-            color: #de4828 ;
+        .li__responsive a:hover {
+            color: #de4828;
         }
-
     }
 
     .nav-cursos2 {
@@ -41,94 +45,148 @@
         padding-top: 6px;
         font-family: "Montserrat", sans-serif;
 
-        li a:link{color: #ffffff;}
-        li a:hover{color: #ffffff;}
-        li a:visited{color: #ffffff;}
-        
+        li a:link {
+            color: #ffffff;
+        }
+        li a:hover {
+            color: #ffffff;
+        }
+        li a:visited {
+            color: #ffffff;
+        }
     }
 }
 
-.titulos__cursos{
+.titulos__cursos {
     text-align: center;
     color: #ffffff;
-    background-color: #de4828 ;
+    background-color: #de4828;
 }
 
-.starters{
+.starters {
+    padding: 5vh 5vh 0 5vh;
+    font-size: 15px;
     text-align: center;
 }
-.childrens__flex{
+.childrens__flex {
     display: flex;
     padding: 5vh 5vh 0 5vh;
     font-size: 15px;
 
-    .children__content{
+    .children__content {
         padding-right: 5vh;
-        h5{
+        h5 {
             background-color: #cccfcf;
             text-align: center;
         }
     }
-
-    
 }
 
-.juniors__flex{
+.juniors__flex {
     display: flex;
     padding: 5vh 5vh 0 5vh;
     font-size: 15px;
 
-    .juniors__content{
+    .juniors__content {
         padding-right: 5vh;
-        h5{
+        h5 {
             background-color: #cccfcf;
             text-align: center;
         }
     }
-
-    
 }
 
-.adultos__flex{
+.adultos__flex {
     display: flex;
     padding: 5vh 5vh 0 5vh;
     font-size: 15px;
 
-    .adultos__content{
+    .adultos__content {
         padding-right: 5vh;
-        h5{
+        h5 {
             background-color: #cccfcf;
             text-align: center;
         }
     }
-
-    
 }
 
-.internacionales__flex{
+.internacionales__flex {
     display: flex;
     padding: 5vh 5vh 0 5vh;
     font-size: 15px;
-  
 
-    .internacionales__content{
+    .internacionales__content {
         padding-right: 5vh;
         align-content: space-between;
-        h5{
+        h5 {
             background-color: #cccfcf;
             text-align: center;
         }
     }
-
-    
 }
 
-
-
-@media screen and (max-width: 480px){
-    .nav-cursosgrid{
-    display: none;
+@media screen and (max-width: 480px) {
+    body {
+        .nav-cursosgrid {
+            display: none;
+        }
+        .contenido__cursos {
+            .childrens__flex {
+                display: block;
+            }
+            .juniors__flex {
+                display: block;
+            }
+            .adultos__flex {
+                display: block;
+            }
+            .internacionales__flex {
+                display: block;
+            }
+        }
+    }
 }
 
-    
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    body {
+        .nav-cursosgrid {
+            display: none;
+        }
+        .contenido__cursos {
+            .childrens__flex {
+                display: block;
+            }
+            .juniors__flex {
+                display: block;
+            }
+            .adultos__flex {
+                display: block;
+            }
+            .internacionales__flex {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+    body {
+        .nav-cursosgrid {
+            display: none;
+        }
+        .contenido__cursos {
+            .childrens__flex {
+                display: block;
+            }
+            .juniors__flex {
+                display: block;
+            }
+            .adultos__flex {
+                display: block;
+            }
+            .internacionales__flex {
+                display: block;
+            }
+        }
+    }
 }
