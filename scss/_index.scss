@@ -72,7 +72,20 @@
 }
 
 @media screen and (max-width: 480px){
+    .carrusel__img-1{
+        max-width: 480px;
+    }
     .infoindex{
+        display: block;
+        p{
+            font-size: 2vh ;
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 780px){
+    .infoindex{
+        display: block;
         p{
             font-size: 2vh ;
         }
