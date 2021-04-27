@@ -1,6 +1,7 @@
 
 .div__p{
     text-align: center;
+    margin-top: 10px;
 }
 .div__virtualidad-texto {
     display: flex;
@@ -8,6 +9,8 @@
     gap: 5vh;
     .virtualidad__titulo {
         text-align: center;
+        background-color: #de4828;
+        color:#ffffff;
     }
 
 }
@@ -23,4 +26,41 @@
     .logo__zoom{
         padding-right: 10vh;
     }
+}
+
+
+@media screen and (max-width: 480px){
+    .div__p{
+        margin-top: 10px;
+    }
+    .div__virtualidad-texto{
+        display: block;
+        p{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .div__p{
+        margin-top: 10px;
+    }
+    .div__virtualidad-texto{
+        display: block;
+        p{
+            text-align: center;
+        }
+    } 
+}
+
+@media only screen and (min-width: 780px) and (max-width: 991px){
+    .div__p{
+        margin-top: 10px;
+    }
+    .div__virtualidad-texto{
+        display: block;
+        p{
+            text-align: center;
+        }
+    } 
 }

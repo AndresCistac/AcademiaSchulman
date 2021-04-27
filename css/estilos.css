@@ -577,6 +577,7 @@ iframe {
 
 .div__p {
   text-align: center;
+  margin-top: 10px;
 }
 
 .div__virtualidad-texto {
@@ -589,6 +590,8 @@ iframe {
 
 .div__virtualidad-texto .virtualidad__titulo {
   text-align: center;
+  background-color: #de4828;
+  color: #ffffff;
 }
 
 .div__virtualidad-logos {
@@ -603,6 +606,42 @@ iframe {
 
 .div__virtualidad-logos .logo__zoom {
   padding-right: 10vh;
+}
+
+@media screen and (max-width: 480px) {
+  .div__p {
+    margin-top: 10px;
+  }
+  .div__virtualidad-texto {
+    display: block;
+  }
+  .div__virtualidad-texto p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .div__p {
+    margin-top: 10px;
+  }
+  .div__virtualidad-texto {
+    display: block;
+  }
+  .div__virtualidad-texto p {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 991px) {
+  .div__p {
+    margin-top: 10px;
+  }
+  .div__virtualidad-texto {
+    display: block;
+  }
+  .div__virtualidad-texto p {
+    text-align: center;
+  }
 }
 
 .visa__container-top {
