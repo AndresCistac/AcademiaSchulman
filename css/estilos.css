@@ -263,14 +263,26 @@ p {
   body .contenido__cursos .childrens__flex {
     display: block;
   }
+  body .contenido__cursos .childrens__flex .children__content {
+    text-align: center;
+  }
   body .contenido__cursos .juniors__flex {
     display: block;
+  }
+  body .contenido__cursos .juniors__flex .juniors__content {
+    text-align: center;
   }
   body .contenido__cursos .adultos__flex {
     display: block;
   }
+  body .contenido__cursos .adultos__flex .adultos__content {
+    text-align: center;
+  }
   body .contenido__cursos .internacionales__flex {
     display: block;
+  }
+  body .contenido__cursos .internacionales__flex .internacionales__content {
+    text-align: center;
   }
 }
 
@@ -281,14 +293,26 @@ p {
   body .contenido__cursos .childrens__flex {
     display: block;
   }
+  body .contenido__cursos .childrens__flex .children__content {
+    text-align: center;
+  }
   body .contenido__cursos .juniors__flex {
     display: block;
+  }
+  body .contenido__cursos .juniors__flex .juniors__content {
+    text-align: center;
   }
   body .contenido__cursos .adultos__flex {
     display: block;
   }
+  body .contenido__cursos .adultos__flex .adultos__content {
+    text-align: center;
+  }
   body .contenido__cursos .internacionales__flex {
     display: block;
+  }
+  body .contenido__cursos .internacionales__flex .internacionales__content {
+    text-align: center;
   }
 }
 
@@ -299,14 +323,26 @@ p {
   body .contenido__cursos .childrens__flex {
     display: block;
   }
+  body .contenido__cursos .childrens__flex .children__content {
+    text-align: center;
+  }
   body .contenido__cursos .juniors__flex {
     display: block;
+  }
+  body .contenido__cursos .juniors__flex .juniors__content {
+    text-align: center;
   }
   body .contenido__cursos .adultos__flex {
     display: block;
   }
+  body .contenido__cursos .adultos__flex .adultos__content {
+    text-align: center;
+  }
   body .contenido__cursos .internacionales__flex {
     display: block;
+  }
+  body .contenido__cursos .internacionales__flex .internacionales__content {
+    text-align: center;
   }
 }
 
