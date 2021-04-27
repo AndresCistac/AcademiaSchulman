@@ -1,11 +1,27 @@
-.container-error{
+.container-error {
     text-align: center;
-    .img-error{
+    .img__error {
         width: 160vh;
     }
-    .p-error{
+    .p__error {
         font-weight: bold;
         font-size: 3vh;
         color: black;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        .img__error {
+            max-width: 480px;
+            height: 300px;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    .img__error {
+        max-width: 500px;
+        height: 300px;
     }
 }
