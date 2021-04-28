@@ -347,26 +347,109 @@ p {
 }
 
 footer {
-  background-color: #C2C4C4;
+  background-color: #464849;
   bottom: 0;
   width: 100%;
   margin-top: 10vh;
 }
 
-footer p {
-  color: #566573;
+footer .footer__exploracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-footer li a:link {
+footer .footer__exploracion li a:link {
   color: white;
 }
 
-footer li a:visited {
+footer .footer__exploracion li a:visited {
   color: white;
 }
 
-footer li a:hover {
+footer .footer__exploracion li a:hover {
   color: #2d3436;
+}
+
+footer .footer__exploracion .horarios h5 {
+  color: #ffffff;
+  padding-bottom: 1vh;
+}
+
+footer .footer__exploracion .horarios .horarios__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer__exploracion .horarios .horarios__flex p {
+  color: #d9d9d9;
+  font-size: 13px;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+footer .footer__exploracion .horarios .horarios__flex .horarios__flex-mod1 {
+  padding-right: 20vh;
+  padding-bottom: 5px;
+}
+
+footer .footer__exploracion .horarios .horarios__flex .horarios__flex-mod2 {
+  padding-right: 28vh;
+  padding-bottom: 5px;
+}
+
+footer .footer__exploracion .horarios .horarios__flex .horarios__flex-cerrado {
+  border: solid 1px #de4828;
+  border-radius: 10px;
+  background-color: #de4828;
+}
+
+footer .footer__exploracion .seguinos h5 {
+  color: #ffffff;
+  padding-bottom: 1vh;
+}
+
+footer .footer__exploracion .seguinos .iconos__footer {
+  padding-right: 5px;
+  width: 5vh;
+  height: 5vh;
+}
+
+footer .footer__exploracion .seguinos .iconos__footer img:hover {
+  -webkit-transition-duration: 10s;
+          transition-duration: 10s;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+footer .footer__exploracion .copy p {
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 480px) {
+  footer .footer__exploracion {
+    display: block;
+  }
+  footer .footer__exploracion .horarios__flex-cerrado {
+    text-align: center;
+  }
+  footer .footer__exploracion .copy {
+    padding-top: 2vh;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+  footer .footer__exploracion {
+    display: block;
+  }
+  footer .footer__exploracion .horarios__flex-cerrado {
+    text-align: center;
+  }
+  footer .footer__exploracion .copy {
+    padding-top: 2vh;
+  }
 }
 
 .carrusel__img-1 {
