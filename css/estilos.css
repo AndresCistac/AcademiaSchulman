@@ -599,7 +599,9 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 28vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tarjeta-contacto .info-adicional .redes-contacto li a:hover {
@@ -644,7 +646,6 @@ iframe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 10vh;
   }
 }
 
@@ -793,13 +794,13 @@ iframe {
 }
 
 .container-error .img__error {
-  width: 180vh;
+  width: 200vh;
 }
 
 .container-error .p__error {
   font-weight: bold;
   font-size: 3vh;
-  color: black;
+  color: #808080;
 }
 
 @media screen and (max-width: 480px) {

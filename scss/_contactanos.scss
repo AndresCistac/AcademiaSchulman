@@ -42,7 +42,7 @@ iframe {
 
         .redes-contacto {
             display: flex;
-            padding-left: 28vh;
+            justify-content: center;
             li a:hover{
                 color: #000000;
             }
@@ -74,7 +74,7 @@ $colors:(facebook:#3b5998, twitter:#55acee, instagram:#fd5949);
 
             .redes-contacto {
                 display: flex;
-                padding-left: 10vh;
+                
             }
         }
     }
