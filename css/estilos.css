@@ -186,6 +186,7 @@ p {
 
 .childrens__flex .children__content {
   padding-right: 5vh;
+  text-align: center;
 }
 
 .childrens__flex .children__content h5 {
@@ -203,6 +204,7 @@ p {
 
 .juniors__flex .juniors__content {
   padding-right: 5vh;
+  text-align: center;
 }
 
 .juniors__flex .juniors__content h5 {
@@ -220,6 +222,7 @@ p {
 
 .adultos__flex .adultos__content {
   padding-right: 5vh;
+  text-align: center;
 }
 
 .adultos__flex .adultos__content h5 {
@@ -239,6 +242,7 @@ p {
   padding-right: 5vh;
   -ms-flex-line-pack: justify;
       align-content: space-between;
+  text-align: center;
 }
 
 .internacionales__flex .internacionales__content h5 {
@@ -636,6 +640,9 @@ iframe {
     text-align: right;
     padding-right: 3vh;
   }
+  .tarjeta-contacto .formulario .boton__contactanos {
+    margin-left: 78%;
+  }
   .tarjeta-contacto .info-adicional {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -666,6 +673,10 @@ iframe {
   text-align: center;
   background-color: #de4828;
   color: #ffffff;
+}
+
+.div__virtualidad-texto p {
+  text-align: center;
 }
 
 .div__virtualidad-logos {
