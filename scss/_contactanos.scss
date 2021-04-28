@@ -1,7 +1,7 @@
 iframe {
     margin-left: 20px;
 }
-
+/* display grid para poder ubicar los medios de contactos a la izquierda y a la derecha el formulario*/
 .tarjeta-contacto {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -26,13 +26,13 @@ iframe {
             padding: 5px;
             background-color: #de4828;
             a:link {
-                color: black;
+                color: #ffffff;
             }
             a:visited {
-                color: black;
+                color: #ffffff;
             }
             a:hover {
-                color: black;
+                color: #ffffff;
             }
         }
     }
@@ -43,10 +43,20 @@ iframe {
         .redes-contacto {
             display: flex;
             padding-left: 28vh;
+            li a:hover{
+                color: #000000;
+            }
         }
     }
 }
+/* colores para los iconos de las imagenes de contactanos */
+$colors:(facebook:#3b5998, twitter:#55acee, instagram:#fd5949);
 
+@each $name-color, $color in $colors {
+    .fa-#{$name-color} {
+        color: $color;
+    }
+ }
 @media screen and (max-width: 480px) {
     .tarjeta-contacto {
         display: grid;

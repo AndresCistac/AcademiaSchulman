@@ -793,13 +793,13 @@ iframe {
 }
 
 .container-error .img__error {
-  width: 180vh;
+  width: 200vh;
 }
 
 .container-error .p__error {
   font-weight: bold;
   font-size: 3vh;
-  color: black;
+  color: #808080;
 }
 
 @media screen and (max-width: 480px) {

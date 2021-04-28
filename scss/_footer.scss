@@ -6,18 +6,6 @@ footer {
     .footer__exploracion {
         display: flex;
         justify-content: space-around;
-
-        li {
-            a:link {
-                color: white;
-            }
-            a:visited {
-                color: white;
-            }
-            a:hover {
-                color: #2d3436;
-            }
-        }
         .horarios {
             h5 {
                 color: #ffffff;
@@ -56,11 +44,6 @@ footer {
                 padding-right: 5px;
                 width: 5vh;
                 height: 5vh;
-                
-            }
-            .iconos__footer img:hover{
-                    transition-duration: 10s;
-                    transition-property: all;
             }
         }
         .copy {

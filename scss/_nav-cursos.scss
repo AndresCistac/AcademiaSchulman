@@ -3,7 +3,7 @@
     grid-template-columns: 50% 50%;
     gap: 5px;
     padding: 5px;
-
+    /*menu de cursos solo para mas de 1024px con dropdown de bootstrap*/
     .nav-cursos1 {
         display: flex;
         justify-content: space-around;
@@ -56,7 +56,7 @@
         }
     }
 }
-
+/*todos los cursos con estilo flex para que queden alineados cuando sea pantalla mas de 1024px menor a esto van a ser en bloque*/
 .titulos__cursos {
     text-align: center;
     color: #ffffff;

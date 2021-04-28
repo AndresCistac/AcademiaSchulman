@@ -8,18 +8,11 @@
 
 
 p {
-    color: grey;
+    color: #808080;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-$colors:(facebook:#3b5998, twitter:#55acee, instagram:#fd5949);
-
-@each $name-color, $color in $colors {
-    .fa-#{$name-color} {
-        color: $color;
-    }
- }
  
 
 .fab {
